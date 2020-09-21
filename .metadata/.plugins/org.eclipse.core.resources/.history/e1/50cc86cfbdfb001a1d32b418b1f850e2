@@ -1,0 +1,46 @@
+package br.com.sistemapizzaria.dao;
+
+import br.com.sistemapizzaria.view.HomeScreen;
+
+public class LoginDao {
+
+	private String user;
+	private int password;
+
+	public LoginDao() {
+
+	}
+
+	public void setUser(String user) {
+		this.user = user;
+	}
+
+	public String getUser() {
+		return user;
+	}
+
+	public void setPassword(int password) {
+		this.password = password;
+	}
+
+	public int getPassword() {
+		return password;
+	}
+
+	public boolean logar(String user, int password) {
+		if (getUser() == "Vinicius" && getPassword() == 123) {
+			HomeScreen();
+			
+			
+		}
+
+		return false;
+
+	}
+
+	private void HomeScreen() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

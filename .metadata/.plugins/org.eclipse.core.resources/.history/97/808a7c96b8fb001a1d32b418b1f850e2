@@ -1,0 +1,9 @@
+package br.com.sistemapizzaria.model;
+
+public class Produto {
+
+	public String nome;
+	public String ingredientes;
+	public double valor;
+
+}

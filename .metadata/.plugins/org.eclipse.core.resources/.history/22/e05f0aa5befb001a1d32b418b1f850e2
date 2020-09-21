@@ -1,0 +1,14 @@
+package br.com.sistemapizzaria.view;
+
+public class HomeScreen {
+
+	public static void main(String[] args) {
+		System.out.println("---BEM VINDO---");
+		
+		
+		System.out.println("Login: " );
+		
+		
+	}
+
+}

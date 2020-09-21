@@ -1,0 +1,26 @@
+package br.com.sistemapizzaria.view;
+
+import java.util.Scanner;
+
+import br.com.sistemapizzaria.dao.LoginDao;
+import br.com.sistemapizzaria.model.Cliente;
+
+public class HomeScreen {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("---BEM VINDO---");
+
+		Cliente cliente = new Cliente("Vinicius", "Vinicius", "123");
+		LoginDao login = new LoginDao();
+		System.out.println("Login: ");
+		string login;
+		cliente.setUser(user);
+		System.out.println("Senha:");
+		String password = cliente.getPassword();
+
+		System.out.println(cliente.toString());
+
+	}
+
+}

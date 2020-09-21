@@ -1,0 +1,12 @@
+package br.com.sistemapizzaria.model;
+
+public class Pedido {
+
+	public String nomePedido;
+	public String telefoneP;
+	public String enderecoP;
+	public String produtoP;
+	public int quantidadeP;
+	public double taxaEntregaP;
+	public double totalP;
+}

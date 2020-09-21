@@ -1,0 +1,12 @@
+package br.com.sistemapizzaria.model;
+
+public class Cliente {
+	
+	private String login;
+	private String password;
+	
+	public Cliente(String login, String password) {
+		
+	}
+
+}

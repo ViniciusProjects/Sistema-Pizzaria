@@ -1,0 +1,17 @@
+package br.com.sistemapizzaria.dao;
+
+public class LoginDao {
+
+	private String user;
+	private int password;
+
+	public LoginDao() {
+		
+	}
+	
+	public boolean logar(String user, int password) {
+		return false;
+		
+	}
+
+}

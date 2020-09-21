@@ -1,0 +1,7 @@
+package br.com.sistemapizzaria.view;
+
+public class MenuScreen { // menu de pizzas
+	
+	Produto produto;
+
+}

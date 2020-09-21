@@ -1,0 +1,14 @@
+package br.com.sistemapizzaria.model;
+
+public class Pedido {
+	private String nome;
+	private String ingredientes;
+	private double valor;
+	
+	public Produto(String nome, String ingredientes, double valor) {
+		this.nome = nome;
+		this.ingredientes = ingredientes;
+		this.valor = valor;
+	}
+
+}
